@@ -8,7 +8,11 @@ const startBtn = document.querySelector(".start-btn")
 
 
 
-// const fb =  firebase.initializeApp(firebaseConfig);
+startBtn.addEventListener('click', ()=> {
+    window.location.href="started.html"
+})
+
+const fb =  firebase.initializeApp(firebaseConfig);
 
 startBtn.addEventListener("click", (e) => {
     e.preventDefault()
