@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 
     /* body { */
-        width: 200px;
+        width: 250px;
         height: 250px;
         overflow: hidden;
      /* } */
@@ -16,4 +16,14 @@ button{
     height: 1.5rem;
     border: white;
     width: 8rem;
+}
+
+.baamzi{
+    text-decoration: none; color: white;
+    background-color: #420a53;
+    padding: 0.2rem;
+}
+
+h1{
+    font-size: 1rem;
 }

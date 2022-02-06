@@ -11,7 +11,7 @@
     },
     "permissions": ["activeTab"],
     "content_scripts": [{
-        "js": ["firebase.js", "script.js"],
+        "js": ["firebase.js", "script.js", "time.js"],
         "matches": ["<all_urls>"],
         "all_frames": true
 

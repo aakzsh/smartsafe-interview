@@ -1,1 +1,4 @@
 # smartsafe-interview
+
+SmartSafe Interview is a google extension where employee candidates can record the interview process automatically. After the interview is complete, we will provide you with a machine learning processed report of your interview containing the full transcript, use of censored words, number of potentially inappropriate phrases, and number of inappropriate questions asked by the interviewer.
+With this extension, you can identify if the company provides a safe environment and equality for everyone. Also, you can speak up to the public to help keep others from suffering the same situation because you have supporting evidence and documentation that prove what happened, how it happened, and how you responded during the interview.
