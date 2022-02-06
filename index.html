@@ -12,19 +12,17 @@
 <body>
     
     <p>SmartSafe Interview</p><br>
-    <input type="text" placeholder="your name">
+    <input type="text" class="name" placeholder="your name">
     <br><br>
 
-    <input type="text" placeholder="room id">
+    <input type="text" class="room-id" placeholder="room id">
     <br>
-    <p>select role:</p>
-    <input type="radio" id="interviewer" name="role" value="interviewer">
-    <label for="interviewer">interviewer</label><br>
-    <input type="radio" id="interviewee" name="role" value="interviewee">
-    <label for="interviewee">interviewee</label><br>
-    
+    <p>1. Interviewer 2.Interviewee</p>
+    <input type="number" class="role" placeholder="room id">
     <br>
     
-    <a href="started.html"><button>START</button></a>
+    <a><a class="start-btn">START</a></a>
+    <script src="firebase.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
