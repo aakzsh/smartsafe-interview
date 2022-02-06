@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src *;">
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
     <title>Document</title>
@@ -17,11 +18,12 @@
 
     <input type="text" class="room-id" placeholder="room id">
     <br>
+    <p>select role</p>
     <p>1. Interviewer 2.Interviewee</p>
     <input type="number" class="role" placeholder="room id">
     <br>
-    
-    <a><a class="start-btn">START</a></a>
+    <br>
+    <a class="start-btn"><button>START</button></a>
     <script src="firebase.js"></script>
     <script src="script.js"></script>
 </body>

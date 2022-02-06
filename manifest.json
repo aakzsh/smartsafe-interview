@@ -9,5 +9,12 @@
     "icons": {
         "128": "logo.png"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["activeTab"],
+    "content_scripts": [{
+        "js": ["firebase.js", "script.js"],
+        "matches": ["<all_urls>"],
+        "all_frames": true
+
+    }],
+    "content_security_policy": "script-src 'self' https://www.gstatic.com; object-src 'self'"
 }
