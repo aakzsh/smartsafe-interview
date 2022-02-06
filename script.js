@@ -50,6 +50,7 @@ startBtn.addEventListener("click", (e) => {
                 .update(data)
                 .then(() => {
                     console.log("success")
+                    window.location.href="started.html"
                 })
                 .catch(err => console.error(err))
 
@@ -60,6 +61,7 @@ startBtn.addEventListener("click", (e) => {
                 .set(data)
                 .then(() => {
                     console.log("success")
+                    window.location.href="started.html"
                 })
                 .catch(err => console.error(err))
 
