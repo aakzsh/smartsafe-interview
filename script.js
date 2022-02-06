@@ -1,3 +1,4 @@
+const db = fb.firestore();
 const nameInput = document.querySelector(".name")
 const roomIdInput = document.querySelector(".room-id")
 
@@ -76,6 +77,5 @@ startBtn.addEventListener("click", (e) => {
 })
 
 
-const db = fb.firestore();
 
 
